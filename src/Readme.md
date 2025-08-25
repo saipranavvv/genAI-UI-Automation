@@ -22,11 +22,12 @@ python3 agent.py
 - Required packages listed in `requirements.txt`
 
 ## Getting Started
-1. Install dependencies:
+1. Install dependencies:   (still working on it- for now try to install whatever is required pls, thanks)
 ```bash
 pip install -r requirements.txt
 ```
-2. Run the agent:
+2. Add Gemini API key in .env (You can create it on https://aistudio.google.com/app/u/2/apikey)
+3. Run the agent:
 ```bash
 python3 agent.py
 ```
