@@ -1,0 +1,30 @@
+{
+  "feature": "Google Search Functionality",
+  "scenarios": [
+    {
+      "scenario": "User performs a search for a name",
+      "steps": [
+        {
+          "number": 1,
+          "keyword": "Given",
+          "step_text": "The user is on the Google homepage"
+        },
+        {
+          "number": 2,
+          "keyword": "When",
+          "step_text": "the user types \"Ramesh\" into the search bar"
+        },
+        {
+          "number": 3,
+          "keyword": "And",
+          "step_text": "the user presses the Enter key"
+        },
+        {
+          "number": 4,
+          "keyword": "Then",
+          "step_text": "verify if search results are displayed"
+        }
+      ]
+    }
+  ]
+}

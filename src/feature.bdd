@@ -1,0 +1,7 @@
+Feature: Google Search Functionality
+
+  Scenario: User performs a search for a name
+    Given the user is on the Google homepage(Step1)
+    When the user types "Ramesh" into the search bar(Step2)
+    And the user presses the Enter key(Step3)
+    Then verify if search results are displayed(Step4)
