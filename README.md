@@ -10,9 +10,9 @@ python3 agent.py
 ## Project Structure
 
 ### Core Files
-- **agent.py** - The main file to be run 
-- **feature.bdd** - Contains the feature file
-- **instructions.txt** - Contains instructions for the agent
+- **src/agent.py** - The main file to be run 
+- **src/feature.bdd** - Contains the feature file
+- **src/instructions.txt** - Contains instructions for the agent
 
 ### Report Generation (Optional)
 - **parser.py** - Uses a Gemma LLM (locally) for UI purposes(only for html report)
