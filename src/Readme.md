@@ -1,10 +1,31 @@
-agent.py - the main file to be run 
-feature.bdd - contains the feature file
-instructions.txt - contains instructions for the agent
-parser.py - uses a gemma llm(locally) just for UI purposes (Only required for html report)
-parser_instructions - instructions for gemma (Only required for html report)
+# Chat App AI Agent
 
-
-Instructions:
+## Instructions to Run
+```bash
 python3 agent.py
+```
 
+## Project Structure
+
+### Core Files
+- **agent.py** - The main file to be run 
+- **feature.bdd** - Contains the feature file
+- **instructions.txt** - Contains instructions for the agent
+
+### Report Generation (Optional)
+- **parser.py** - Uses a Gemma LLM (locally) for UI purposes
+- **parser_instructions** - Instructions for Gemma LLM
+
+## Dependencies
+- Python 3.x
+- Required packages listed in `requirements.txt`
+
+## Getting Started
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+2. Run the agent:
+```bash
+python3 agent.py
+```
