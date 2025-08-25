@@ -1,4 +1,3 @@
-# Chat App AI Agent
 
 ## Instructions to Run
 ```bash
@@ -13,8 +12,10 @@ python3 agent.py
 - **instructions.txt** - Contains instructions for the agent
 
 ### Report Generation (Optional)
-- **parser.py** - Uses a Gemma LLM (locally) for UI purposes
-- **parser_instructions** - Instructions for Gemma LLM
+- **parser.py** - Uses a Gemma LLM (locally) for UI purposes(only for html report)
+- **parser_instructions** - Instructions for Gemma LLM(only for html report)
+- **transformed_feature.json** - Feature is formatted into JSON for UI formatting(only for html report)
+
 
 ## Dependencies
 - Python 3.x
